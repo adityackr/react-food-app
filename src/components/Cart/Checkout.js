@@ -101,7 +101,9 @@ const Checkout = (props) => {
                     onChange={phoneChangeHandler}
                     onBlur={phoneInputBlurHandler}
                 />
-                {phoneHasError && <p>Please enter a valid phone number</p>}
+                {phoneHasError && (
+                    <p>Please enter a valid phone number (11 digits long)</p>
+                )}
             </div>
             <div className={cityInputClasses}>
                 <label htmlFor="city">City</label>
