@@ -27,3 +27,11 @@
     object-fit: cover;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 10rem;
+    }
+}

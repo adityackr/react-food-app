@@ -62,3 +62,9 @@
     border-color: #aa0b20;
     background-color: #ffeff1;
 }
+
+@media (max-width: 500px) {
+    .form {
+        height: 10rem;
+    }
+}

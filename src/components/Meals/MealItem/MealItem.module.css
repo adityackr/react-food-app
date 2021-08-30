@@ -20,3 +20,9 @@
     color: #ad5502;
     font-size: 1.25rem;
 }
+
+@media (max-width: 570px) {
+    .meal {
+        flex-direction: column;
+    }
+}
