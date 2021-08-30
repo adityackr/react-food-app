@@ -1,7 +1,7 @@
 .form {
     margin: 1rem 0;
     height: 13rem;
-    overflow: auto;
+    overflow: scroll;
 }
 
 .control {
@@ -65,6 +65,6 @@
 
 @media (max-width: 500px) {
     .form {
-        height: 10rem;
+        height: 13rem;
     }
 }
