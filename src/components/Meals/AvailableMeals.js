@@ -25,6 +25,7 @@ const AvailableMeals = () => {
             for (const key in responseData) {
                 loadedMeals.push({
                     id: key,
+                    image: responseData[key].image,
                     name: responseData[key].name,
                     description: responseData[key].description,
                     price: responseData[key].price,
@@ -45,6 +46,7 @@ const AvailableMeals = () => {
         <MealItem
             key={meal.id}
             id={meal.id}
+            image={meal.image}
             name={meal.name}
             description={meal.description}
             price={meal.price}

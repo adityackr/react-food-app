@@ -1,6 +1,8 @@
 .meal {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
     margin: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #ccc;
@@ -21,7 +23,7 @@
     font-size: 1.25rem;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 675px) {
     .meal {
         flex-direction: column;
     }
