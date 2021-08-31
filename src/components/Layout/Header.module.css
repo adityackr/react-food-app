@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
 .header {
     position: fixed;
     top: 0;
@@ -12,6 +14,10 @@
     padding: 0 10%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 10;
+}
+
+.logo {
+    font-family: 'Lily Script One', cursive;
 }
 
 .main-image {
