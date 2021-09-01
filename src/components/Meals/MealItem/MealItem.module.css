@@ -12,6 +12,13 @@
     margin: 0 0 0.25rem 0;
 }
 
+.image img {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #8a8aa3;
+    box-shadow: 0 10px 10px -5px #8a8aa3;
+}
+
 .description {
     font-style: italic;
 }
